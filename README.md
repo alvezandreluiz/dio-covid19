@@ -1,6 +1,16 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
+
+Instructor: [Bruno Carneiro](https://www.linkedin.com/in/carneirobruno/)
+
+## Project Images
+
+![alt text](./src/assets/images/italy_panel.png)
+
+![alt text](./src/assets/images/germany_panel.png)
+
+![alt text](./src/assets/images/china_panel.png)
 
 ## Available Scripts
 
