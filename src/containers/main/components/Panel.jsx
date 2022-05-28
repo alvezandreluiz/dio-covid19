@@ -1,5 +1,4 @@
 import React, { memo } from 'react'
-import RefreshIcon from '../../../assets/images/refresh.svg'
 import { Card, Typography, Button, Select, MenuItem } from '../../../components'
 import COUNTRIES from '../../../commons/constants/countries'
 import { CardPanelContentStyled, ItemStyled } from './style'
@@ -7,7 +6,7 @@ import { CardPanelContentStyled, ItemStyled } from './style'
 const navigatorHasShare = navigator.share
 
 function Panel({ updateAt, onChange, data, country, getCoviddata }) {
-  const { cases, recovered, deaths, todayCases, todayDeaths } = data
+  const { recovered } = data
 
   const renderCountries = (country, index) => (
     <MenuItem key={`country-${index}`} value={country.value}>
@@ -28,7 +27,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
     navigator.share({
       title: `Dados do Covid19 - ${country}`,
       text: textCovid19,
-      url: 'https://covid19dio.netlify.app/'
+      url: 'https://dio-covid19.netlify.app/'
     })
   }
 

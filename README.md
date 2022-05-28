@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-Instructor: [Bruno Carneiro](https://www.linkedin.com/in/carneirobruno/)
+:point_right:[**Visite o site do projeto**](https://dio-covid19.netlify.app/)
 
 ## Project Images
 
@@ -78,3 +78,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Instructor: [Bruno Carneiro](https://www.linkedin.com/in/carneirobruno/)
+
+<div align="right">
+  <a href="#top">
+    <img alt="Up" height="25" src="./src/assets/images/angle-up.svg">
+  </a>
+</div>
