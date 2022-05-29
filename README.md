@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
-:point_right:[**Visite o site do projeto**](https://dio-covid19.netlify.app/)
+:point_right:[**Visite o site do projeto**](https://dio-painel-covid19.netlify.app/)
 
 ## Project Images
 

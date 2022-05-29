@@ -27,13 +27,13 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
     navigator.share({
       title: `Dados do Covid19 - ${country}`,
       text: textCovid19,
-      url: 'https://dio-covid19.netlify.app/'
+      url: 'https://dio-painel-covid19.netlify.app/'
     })
   }
 
   const renderShareButton = (
     <div>
-      <Button variant="contained" color="primary" onClick={shareInfo}>
+      <Button size="small" variant="contained" color="primary" onClick={shareInfo}>
         Compartilhar
       </Button>
     </div>
@@ -41,7 +41,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
 
   const renderCopyButton = (
     <div>
-      <Button variant="contained" color="primary" onClick={copyInfo}>
+      <Button size="small" variant="contained" color="primary" onClick={copyInfo}>
         Copiar
       </Button>
     </div>
@@ -55,7 +55,7 @@ function Panel({ updateAt, onChange, data, country, getCoviddata }) {
           <Typography variant="h6" component="span" color="primary">Painel Coronavírus </Typography>
           <Typography variant="body2" component="span" color="primary">Atualizado em: {updateAt}</Typography>
           <div className="pt-2">
-            <Select onChange={onChange} value={country}>
+            <Select size="small" onChange={onChange} value={country}>
               {COUNTRIES.map(renderCountries)}
             </Select>
           </div>
